@@ -1,0 +1,136 @@
+/*
+ Theme Name:     Speech Sounds Visualized
+ Theme URI: 	http://pullmanregional.org/about-us/center-for-learning-innovation/innovation-features/speech-sounds-visualized-app
+ Description:    A theme for the Speech Sounds Visualized Websites
+ Author:         Divide Design & Development
+ Author URI:     hub.wsu.edu/caleb-sandbox
+ Template:       twentyseventeen
+ Version:        0.0.1
+*/
+/* body {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+} */
+
+main {
+	color: #000;
+	font-family: 'futura', Helvetica, sans-serif;
+}
+
+#masthead {
+	font-family: 'futura', Helvetica, sans-serif;
+}
+
+.site-name-title {
+	color: #fff;
+	font-size: 4.75rem;
+	line-height: 1;
+	text-transform: uppercase;
+	margin-bottom: 15px;
+}
+
+.site-description {
+	text-transform: uppercase;
+	width: 33%;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.has-header-image .custom-header-media img,
+.has-header-video .custom-header-media video,
+.has-header-video .custom-header-media iframe {
+	position: relative;
+	max-width: 100%;
+	min-height: 100%;
+	min-width: 100%;
+	min-width: 100vw;
+}
+
+.has-header-image.twentyseventeen-front-page .site-branding,
+.has-header-video.twentyseventeen-front-page .site-branding,
+.has-header-image.home.blog .site-branding,
+.has-header-video.home.blog .site-branding {
+	top: 12em;
+	display: block;
+	height: auto;
+	padding-top: 0;
+	position: absolute;
+}
+
+.wrap {
+	margin: 0;
+}
+
+/* .wrap.footer-wrap {
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 700px;
+	padding-left: 2em;
+	padding-right: 2em;
+} */
+
+.wrap.footer-wrap {
+	width: 100%;
+	/* padding: 0; */
+	margin: 0;
+}
+
+main article .panel-content .wrap {
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 700px;
+	padding-left: 2em;
+	padding-right: 2em;
+}
+
+.admin-bar.twentyseventeen-front-page.has-header-image .custom-header-media,
+.admin-bar.twentyseventeen-front-page.has-header-video .custom-header-media,
+.admin-bar.home.blog.has-header-image .custom-header-media,
+.admin-bar.home.blog.has-header-video .custom-header-media {
+	height: calc(100vh - 100px);
+}
+
+.twentyseventeen-front-page.has-header-image .custom-header-media,
+.twentyseventeen-front-page.has-header-video .custom-header-media,
+.home.blog.has-header-image .custom-header-media,
+.home.blog.has-header-video .custom-header-media {
+	height: calc(100vh - 100px);
+}
+
+.page.page-one-column .entry-header,
+.twentyseventeen-front-page.page-one-column .entry-header,
+.archive.page-one-column:not(.has-sidebar) .page-header {
+	margin-bottom: 1em;
+}
+
+.page .panel-content .entry-title,
+.page-title,
+body.page:not(.twentyseventeen-front-page) .entry-title {
+	color: #222;
+	font-size: 14px;
+	font-size: 2em;
+	font-weight: 800;
+	letter-spacing: 0.14em;
+	text-transform: uppercase;
+}
+
+.flex-container {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.flex-box {
+	border: solid 1px black;
+	padding: 1em;
+}
+
+.flex-box.box-1 {
+	flex: 2;
+}
+
+.flex-box.box-2 .flex-box.box-3 {
+	flex: 1;
+}
