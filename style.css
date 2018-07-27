@@ -7,11 +7,6 @@
  Template:       twentyseventeen
  Version:        0.0.1
 */
-/* body {
-	width: 100%;
-	margin: 0;
-	padding: 0;
-} */
 
 main {
 	color: #000;
@@ -32,7 +27,8 @@ main {
 
 .site-description {
 	text-transform: uppercase;
-	width: 33%;
+	font-size: 2em;
+	opacity: 1 !important;
 }
 
 .text-center {
@@ -128,9 +124,57 @@ body.page:not(.twentyseventeen-front-page) .entry-title {
 }
 
 .flex-box.box-1 {
-	flex: 2;
+	flex: 1;
 }
 
-.flex-box.box-2 .flex-box.box-3 {
+.flex-box.box-2,
+.flex-box.box-3 {
 	flex: 1;
+}
+
+.btn {
+	padding: 0.5em 1em;
+	background: #fff;
+	color: #000;
+	text-transform: uppercase;
+	display: inline-block;
+}
+
+a.btn:hover {
+	opacity: 1;
+	background: #c2c2c2;
+}
+
+.wrap .entry-header .entry-title {
+	text-align: left;
+}
+
+h2.entry-title:last-of-type {
+	text-align: center;
+}
+
+#panel1,
+#panel2 {
+	width: 90%;
+	margin: auto;
+}
+
+.recent-posts {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.recent-posts .post {
+	border: solid 1px black !important;
+	width: 25%;
+	padding: 1em;
+}
+
+header h3,
+.card .entry-summary {
+	text-align: center;
+}
+
+.twentyseventeen-front-page article:not(.has-post-thumbnail):not(:first-child) {
+	border-top: none;
 }

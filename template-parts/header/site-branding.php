@@ -28,6 +28,7 @@
 			?>
 				<p class="site-description"><?php echo $description; ?></p>
 			<?php endif; ?>
+			<a href="#" class="btn bg-grey">Download the App</a>
 		</div><!-- .site-branding-text -->
 
 	</div><!-- .wrap -->
