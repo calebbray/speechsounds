@@ -17,13 +17,9 @@
 		</div><!-- #content -->
 
 		<footer id="colophon" class="site-footer" role="contentinfo">
-			<div class="footer-wrap">
-				<div>
-					<!-- <p><?php //echo esc_html(get_theme_mod('ssv_contact_information')); ?></p>
-					<p class="text-center">&copy; <?php //echo esc_html( date( 'Y' ) ); ?> Speech Sounds Visualized</p> -->
-					<?php get_template_part( 'template-parts/footer/contact', 'info' ); ?>
-				</div>
-			</div><!-- .wrap -->
+
+				<?php get_template_part( 'template-parts/footer/contact', 'info' ); ?>
+			
 		</footer><!-- #colophon -->
 	</div><!-- .site-content-contain -->
 </div><!-- #page -->

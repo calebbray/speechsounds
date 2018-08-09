@@ -1,0 +1,89 @@
+html {
+  font-size: 16px; }
+
+.btn {
+  display: inline-block;
+  text-transform: uppercase; }
+  .btn.btn-grey {
+    background: #f6f5f5;
+    color: #000; }
+    .btn.btn-grey:hover {
+      background: #dddbdb;
+      opacity: 1;
+      transition: all 0.4s ease-out; }
+  .btn.btn-regular {
+    padding: 0.5rem 0.75rem; }
+
+.text-center {
+  text-align: center; }
+
+.text-left {
+  text-align: left; }
+
+.text-right {
+  text-align: right; }
+
+.twentyseventeen-front-page article:not(.has-post-thumbnail):not(:first-child) {
+  border-top: none; }
+
+.home #masthead {
+  font-family: "futura", Helvetica, sans-serif; }
+  .home #masthead .custom-header {
+    display: block;
+    height: auto;
+    margin-bottom: 0;
+    background: #fff; }
+    .home #masthead .custom-header .site-branding {
+      position: absolute;
+      top: 12em;
+      padding: 0; }
+      .home #masthead .custom-header .site-branding .wrap {
+        margin: 0; }
+        .home #masthead .custom-header .site-branding .wrap .site-name-title {
+          color: #fff;
+          font-size: 4.5rem;
+          line-height: 1;
+          text-transform: uppercase;
+          margin-bottom: 0; }
+        .home #masthead .custom-header .site-branding .wrap .site-description {
+          text-transform: uppercase;
+          font-size: 2rem;
+          opacity: 1;
+          margin-bottom: 10px;
+          letter-spacing: 2px; }
+    .home #masthead .custom-header .custom-header-media img {
+      position: relative;
+      max-width: 100%;
+      min-height: 100%;
+      min-width: 100%;
+      min-width: 100vw; }
+    .home #masthead .custom-header .custom-header-media::before {
+      display: none; }
+
+.home main {
+  color: #000;
+  font-family: "futura", Helvetica, sans-serif; }
+  .home main article:not(.post) {
+    width: 90%;
+    margin: auto; }
+  .home main .panel-content .entry-title {
+    font-size: 2rem; }
+  .home main .entry-title {
+    text-align: center;
+    color: #000; }
+  .home main .recent-posts {
+    display: flex;
+    justify-content: space-evenly; }
+    .home main .recent-posts .post {
+      border: solid 1px black;
+      width: 25%;
+      padding: 1em; }
+
+.home footer .flex-container {
+  display: flex;
+  justify-content: space-evenly; }
+  .home footer .flex-container .flex-box {
+    border: solid 1px black;
+    padding: 1em; }
+    .home footer .flex-container .flex-box.box-1, .home footer .flex-container .flex-box.box-2, .home footer .flex-container .flex-box.box-3 {
+      flex: 1; }

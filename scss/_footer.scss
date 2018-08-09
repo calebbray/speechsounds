@@ -1,0 +1,18 @@
+// Bottom Footer
+footer {
+  .flex-container {
+    display: flex;
+    justify-content: space-evenly;
+
+    .flex-box {
+      border: solid 1px black;
+      padding: 1em;
+
+      &.box-1,
+      &.box-2,
+      &.box-3 {
+        flex: 1;
+      }
+    }
+  }
+}

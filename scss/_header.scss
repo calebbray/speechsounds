@@ -1,0 +1,51 @@
+// Top of the page
+#masthead {
+  font-family: $primary-font-family;
+
+  .custom-header {
+    display: block;
+    height: auto;
+    margin-bottom: 0;
+    background: $secondary-color;
+
+    .site-branding {
+      position: absolute;
+      top: 12em;
+      padding: 0;
+
+      .wrap {
+        margin: 0;
+
+        .site-name-title {
+          color: $secondary-color;
+          font-size: $jumbo;
+          line-height: 1;
+          text-transform: uppercase;
+          margin-bottom: 0;
+        }
+
+        .site-description {
+          text-transform: uppercase;
+          font-size: $medium;
+          opacity: 1;
+          margin-bottom: 10px;
+          letter-spacing: 2px;
+        }
+      }
+    }
+
+    .custom-header-media {
+      img {
+        position: relative;
+        max-width: 100%;
+        min-height: 100%;
+        min-width: 100%;
+        min-width: 100vw;
+      }
+
+      &::before {
+        display: none;
+      }
+    }
+  }
+}

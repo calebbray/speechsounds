@@ -8,34 +8,36 @@
  Version:        0.0.1
 */
 
-main {
+/* main {
 	color: #000;
 	font-family: 'futura', Helvetica, sans-serif;
-}
+} */
 
-#masthead {
+/* #masthead {
 	font-family: 'futura', Helvetica, sans-serif;
-}
+} */
 
-.site-name-title {
+/* .site-name-title {
 	color: #fff;
-	font-size: 4.75rem;
+	font-size: 4.5rem;
 	line-height: 1;
 	text-transform: uppercase;
 	margin-bottom: 15px;
-}
+} */
 
-.site-description {
+/* .site-description {
 	text-transform: uppercase;
 	font-size: 2em;
 	opacity: 1 !important;
-}
+	margin-bottom: 10px;
+	letter-spacing: 2px;
+} */
 
-.text-center {
+/* .text-center {
 	text-align: center;
-}
+} */
 
-.has-header-image .custom-header-media img,
+/* .has-header-image .custom-header-media img,
 .has-header-video .custom-header-media video,
 .has-header-video .custom-header-media iframe {
 	position: relative;
@@ -43,9 +45,9 @@ main {
 	min-height: 100%;
 	min-width: 100%;
 	min-width: 100vw;
-}
+} */
 
-.has-header-image.twentyseventeen-front-page .site-branding,
+/* .has-header-image.twentyseventeen-front-page .site-branding,
 .has-header-video.twentyseventeen-front-page .site-branding,
 .has-header-image.home.blog .site-branding,
 .has-header-video.home.blog .site-branding {
@@ -54,11 +56,11 @@ main {
 	height: auto;
 	padding-top: 0;
 	position: absolute;
-}
+} */
 
-.wrap {
+/* .wrap {
 	margin: 0;
-}
+} */
 
 /* .wrap.footer-wrap {
 	margin-left: auto;
@@ -68,41 +70,41 @@ main {
 	padding-right: 2em;
 } */
 
-.wrap.footer-wrap {
+/* .wrap.footer-wrap {
 	width: 100%;
-	/* padding: 0; */
+	padding: 0;
 	margin: 0;
-}
+} */
 
-main article .panel-content .wrap {
+/* main article .panel-content .wrap {
 	margin-left: auto;
 	margin-right: auto;
 	max-width: 700px;
 	padding-left: 2em;
 	padding-right: 2em;
-}
+} */
 
-.admin-bar.twentyseventeen-front-page.has-header-image .custom-header-media,
+/* .admin-bar.twentyseventeen-front-page.has-header-image .custom-header-media,
 .admin-bar.twentyseventeen-front-page.has-header-video .custom-header-media,
 .admin-bar.home.blog.has-header-image .custom-header-media,
 .admin-bar.home.blog.has-header-video .custom-header-media {
 	height: calc(100vh - 100px);
-}
+} */
 
-.twentyseventeen-front-page.has-header-image .custom-header-media,
+/* .twentyseventeen-front-page.has-header-image .custom-header-media,
 .twentyseventeen-front-page.has-header-video .custom-header-media,
 .home.blog.has-header-image .custom-header-media,
 .home.blog.has-header-video .custom-header-media {
 	height: calc(100vh - 100px);
-}
+} */
 
-.page.page-one-column .entry-header,
+/* .page.page-one-column .entry-header,
 .twentyseventeen-front-page.page-one-column .entry-header,
 .archive.page-one-column:not(.has-sidebar) .page-header {
 	margin-bottom: 1em;
-}
+} */
 
-.page .panel-content .entry-title,
+/* .page .panel-content .entry-title,
 .page-title,
 body.page:not(.twentyseventeen-front-page) .entry-title {
 	color: #222;
@@ -111,14 +113,14 @@ body.page:not(.twentyseventeen-front-page) .entry-title {
 	font-weight: 800;
 	letter-spacing: 0.14em;
 	text-transform: uppercase;
-}
+} */
 
-.flex-container {
+/* .flex-container {
 	display: flex;
 	justify-content: space-evenly;
-}
+} */
 
-.flex-box {
+/* .flex-box {
 	border: solid 1px black;
 	padding: 1em;
 }
@@ -130,9 +132,9 @@ body.page:not(.twentyseventeen-front-page) .entry-title {
 .flex-box.box-2,
 .flex-box.box-3 {
 	flex: 1;
-}
+} */
 
-.btn {
+/* .btn {
 	padding: 0.5em 1em;
 	background: #fff;
 	color: #000;
@@ -143,38 +145,47 @@ body.page:not(.twentyseventeen-front-page) .entry-title {
 a.btn:hover {
 	opacity: 1;
 	background: #c2c2c2;
-}
+} */
 
-.wrap .entry-header .entry-title {
+/* .wrap .entry-header .entry-title {
 	text-align: left;
-}
+} */
 
-h2.entry-title:last-of-type {
+/* h2.entry-title:last-of-type {
 	text-align: center;
-}
+} */
 
-#panel1,
+/* #panel1,
 #panel2 {
 	width: 90%;
 	margin: auto;
-}
+} */
 
-.recent-posts {
+/* .recent-posts {
 	display: flex;
 	justify-content: space-evenly;
-}
+} */
 
-.recent-posts .post {
+/* .recent-posts .post {
 	border: solid 1px black !important;
 	width: 25%;
 	padding: 1em;
-}
+} */
 
-header h3,
+/* header h3,
 .card .entry-summary {
 	text-align: center;
-}
+} */
 
-.twentyseventeen-front-page article:not(.has-post-thumbnail):not(:first-child) {
+/* .twentyseventeen-front-page article:not(.has-post-thumbnail):not(:first-child) {
 	border-top: none;
-}
+} */
+
+/* .custom-header {
+	background: #fff;
+	max-height: 750px;
+} */
+
+/* .custom-header-media:before {
+	display: none;
+} */

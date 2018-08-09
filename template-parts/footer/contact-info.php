@@ -10,7 +10,7 @@
 
 ?>
 
-<div class="flex-container">
+<div class="footer-wrap flex-container">
   <div class="flex-box box-1">
     <h3>Speech Sounds Visualized</h3>
     <p>App Store Image Here</p>

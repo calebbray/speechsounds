@@ -14,6 +14,7 @@
         get_stylesheet_directory_uri() . '/style.css',
         array( $parent_style )
     );
+    wp_enqueue_style( 'sass-styles', get_stylesheet_directory_uri() . '/css/main.css' );
   }
   add_action( 'wp_enqueue_scripts', 'mychildtheme_enqueue_styles' );
 
@@ -21,7 +22,7 @@
     remove_theme_support( 'automatic-feed-links' );
 	  remove_theme_support( 'custom-background' );
     remove_theme_support( 'post-formats' );
-    remove_theme_support( 'custom-header' );
+    //remove_theme_support( 'custom-header' );
   }
 
   add_action( 'after_setup_theme', 'speech_sounds_setup', 11 );
@@ -83,22 +84,6 @@
       'section'   =>   'contact_information_section',
       'label'     =>   __( 'City State, Zip', 'speechsoundsvisualized')
     ) );
-
-    // $wp_customize->add_setting( 'header_bg_color', array(
-    //   'default'   => '#4285f4',
-    //   'transport' => 'refresh'
-    // ));
-
-    // $wp_customize->add_section( 'color_theme_section', array(
-    //   'title'    => __('Color', 'speechsoundsvisualized'),
-    //   'priority' => 1000
-    // ));
-
-    // $wp_customize->add_control( new WP_Customize_Color_Control( $wp_customize, 'theme_colors', array(
-    //   'label'  => __('Header Color', 'speechsoundsvisualized'),
-    //   'section' => 'color_theme_section',
-    //   'settings' => 'header_bg_color'
-    // ) ));
   }
 
   add_action( 'customize_register', 'add_customizer_option' );

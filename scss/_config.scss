@@ -1,0 +1,62 @@
+//Fonts
+$primary-font-color: #000;
+$primary-font-family: 'futura', Helvetica, sans-serif;
+$secondary-color: #fff;
+
+//Sizes
+$extra-small: 0.5rem;
+$small: 0.75rem;
+$regular: 1rem;
+$medium: 2rem;
+$large: 3rem;
+$jumbo: 4.5rem;
+
+// Button Colors
+$grey: #dddbdb;
+
+// Mixins
+@mixin easyHover {
+  transition: all 0.4s ease-out;
+}
+
+html {
+  font-size: 16px;
+}
+
+.btn {
+  display: inline-block;
+  text-transform: uppercase;
+
+  &.btn-grey {
+    background: lighten($grey, 10);
+    color: $primary-font-color;
+
+    &:hover {
+      background: $grey;
+      opacity: 1;
+      @include easyHover();
+    }
+  }
+
+  &.btn-regular {
+    padding: $extra-small $small;
+  }
+}
+
+.text {
+  &-center {
+    text-align: center;
+  }
+
+  &-left {
+    text-align: left;
+  }
+  &-right {
+    text-align: right;
+  }
+}
+
+// Misc. Not sure where to put this
+.twentyseventeen-front-page article:not(.has-post-thumbnail):not(:first-child) {
+  border-top: none;
+}

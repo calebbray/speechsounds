@@ -1,0 +1,7 @@
+@import 'config';
+
+.home {
+  @import 'header';
+  @import 'content';
+  @import 'footer';
+}
