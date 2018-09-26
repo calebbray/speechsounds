@@ -13,7 +13,7 @@
 <div class="footer-wrap flex-container">
   <div class="flex-box box-1">
     <h3>Speech Sounds Visualized</h3>
-    <p>App Store Image Here</p>
+    <img class="app-store" src="http://caleb.develop.test/wp-content/uploads/2018/08/Button_Download-on-the-App-Store.png" alt="app store">
     <p>&copy;<?php echo esc_html( date( 'Y' ) ); ?><br> Pullman Regional Hospital</p>
   </div>
   <div class="flex-box box-2">

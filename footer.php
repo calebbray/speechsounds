@@ -18,6 +18,8 @@
 
 		<footer id="colophon" class="site-footer" role="contentinfo">
 
+				<?php get_template_part( 'template-parts/footer/twitter', 'info' ); ?>
+
 				<?php get_template_part( 'template-parts/footer/contact', 'info' ); ?>
 			
 		</footer><!-- #colophon -->

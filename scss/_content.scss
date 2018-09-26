@@ -15,6 +15,78 @@ main {
   //   }
   // }
 
+  h2 {
+    font-weight: 100 !important;
+  }
+
+  article {
+    &#panel1 {
+      margin: 0;
+      width: 100%;
+      padding: 5rem;
+      background: url(http://caleb.develop.test/wp-content/uploads/2018/08/Downloaded-Internationally-Background-Image-04.png);
+      background-size: cover;
+      color: $secondary-color;
+
+      h2 {
+        color: $secondary-color;
+      }
+    }
+
+    &#panel3 {
+      margin: 0;
+      width: 100%;
+      overflow: visible;
+      margin-top: 8rem;
+
+      .entry-title,
+      .entry-header {
+        display: none;
+      }
+
+      .pronunciation {
+        color: $secondary-color;
+
+        h2 {
+          color: $secondary-color;
+          text-transform: uppercase;
+          max-width: 25%;
+          display: inline-block;
+          margin-left: 15rem;
+        }
+
+        p {
+          max-width: 25%;
+          margin-left: 15rem;
+        }
+
+        img {
+          position: absolute;
+          top: -83px;
+          right: 450px;
+          width: 220px;
+        }
+      }
+    }
+
+    &#panel4 {
+      h3 > a {
+        color: grey;
+        font-size: 15px;
+      }
+
+      .entry-header {
+        margin-bottom: 0;
+      }
+    }
+  }
+
+  // .bg-green {
+  //   background: #4e8755;
+  //   background: -webkit-linear-gradient(left, #4e8755 15%, #7aa07e 100%);
+  //   padding: 5rem;
+  // }
+
   ul {
     list-style-type: none;
   }
@@ -50,6 +122,18 @@ main {
     justify-content: space-between;
     margin: auto;
     width: 70%;
+
+    .img-wrapper {
+      flex: 1;
+
+      img {
+        width: 250px;
+      }
+    }
+
+    ul {
+      flex: 1;
+    }
   }
 
   article {
@@ -75,7 +159,7 @@ main {
     justify-content: space-evenly;
 
     .post {
-      border: solid 1px black;
+      // border: solid 1px black;
       width: 25%;
       padding: 1em;
     }

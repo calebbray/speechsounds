@@ -63,6 +63,46 @@ html {
 .home main {
   color: #000;
   font-family: "futura", Helvetica, sans-serif; }
+  .home main h2 {
+    font-weight: 100 !important; }
+  .home main article#panel1 {
+    margin: 0;
+    width: 100%;
+    padding: 5rem;
+    background: url(http://caleb.develop.test/wp-content/uploads/2018/08/Downloaded-Internationally-Background-Image-04.png);
+    background-size: cover;
+    color: #fff; }
+    .home main article#panel1 h2 {
+      color: #fff; }
+  .home main article#panel3 {
+    margin: 0;
+    width: 100%;
+    overflow: visible;
+    margin-top: 8rem; }
+    .home main article#panel3 .entry-title,
+    .home main article#panel3 .entry-header {
+      display: none; }
+    .home main article#panel3 .pronunciation {
+      color: #fff; }
+      .home main article#panel3 .pronunciation h2 {
+        color: #fff;
+        text-transform: uppercase;
+        max-width: 25%;
+        display: inline-block;
+        margin-left: 15rem; }
+      .home main article#panel3 .pronunciation p {
+        max-width: 25%;
+        margin-left: 15rem; }
+      .home main article#panel3 .pronunciation img {
+        position: absolute;
+        top: -83px;
+        right: 450px;
+        width: 220px; }
+  .home main article#panel4 h3 > a {
+    color: grey;
+    font-size: 15px; }
+  .home main article#panel4 .entry-header {
+    margin-bottom: 0; }
   .home main ul {
     list-style-type: none; }
   .home main li.icon-1, .home main li.icon-2, .home main li.icon-3, .home main li.icon-4 {
@@ -81,6 +121,12 @@ html {
     justify-content: space-between;
     margin: auto;
     width: 70%; }
+    .home main .iphone-image .img-wrapper {
+      flex: 1; }
+      .home main .iphone-image .img-wrapper img {
+        width: 250px; }
+    .home main .iphone-image ul {
+      flex: 1; }
   .home main article:not(.post) {
     width: 90%;
     margin: auto; }
@@ -93,7 +139,6 @@ html {
     display: flex;
     justify-content: space-evenly; }
     .home main .recent-posts .post {
-      border: solid 1px black;
       width: 25%;
       padding: 1em; }
 
@@ -103,9 +148,26 @@ html {
 
 .home footer .flex-container {
   display: flex;
-  justify-content: space-evenly; }
+  justify-content: space-evenly;
+  margin: 3rem 10rem; }
   .home footer .flex-container .flex-box {
-    border: solid 1px black;
-    padding: 1em; }
+    padding: 1em;
+    color: #000; }
     .home footer .flex-container .flex-box.box-1, .home footer .flex-container .flex-box.box-2, .home footer .flex-container .flex-box.box-3 {
       flex: 1; }
+      .home footer .flex-container .flex-box.box-1 h3, .home footer .flex-container .flex-box.box-2 h3, .home footer .flex-container .flex-box.box-3 h3 {
+        display: inline-block;
+        color: #000;
+        font-weight: 400;
+        letter-spacing: 0.1rem; }
+
+.home footer.bg-green {
+  padding: 0; }
+
+.bg-green {
+  background: #4e8755;
+  background: -webkit-linear-gradient(left, #4e8755 15%, #7aa07e 100%);
+  padding: 5rem; }
+
+.app-store {
+  width: 125px; }

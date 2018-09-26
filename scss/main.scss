@@ -4,6 +4,14 @@
   @import 'header';
   @import 'content';
   @import 'footer';
+}
 
-  
+.bg-green {
+  background: #4e8755;
+  background: -webkit-linear-gradient(left, #4e8755 15%, #7aa07e 100%);
+  padding: 5rem;
+}
+
+.app-store {
+  width: 125px;
 }
